@@ -11,7 +11,7 @@ function init() {
 }
 // color code the time blocks to indicate whether its in the past, present or future
 function colorCode() {
-    var textAreaEl = $(".description");
+    var textAreaEl = $(".description");                        
     var currentHour = moment().format("H");
     console.log(typeof currentHour);
     textAreaEl.each(function () {
